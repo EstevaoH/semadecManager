@@ -1,0 +1,13 @@
+
+<table *ngIf="usuario !=null">
+  <tr>
+    <th>Nome</th>
+    <th>Matricula</th>
+    <th>Curso</th>
+  </tr>
+  <tr *ngFor="let u of usuario">
+    <td>{{ u.nome}}</td>
+    <td>{{ u.matricula }}</td>
+    <td>{{ u.curso }}</td>
+  </tr>
+</table>

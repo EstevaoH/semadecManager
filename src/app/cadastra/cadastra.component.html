@@ -1,0 +1,23 @@
+<h1>Semandec Cadastro</h1>
+<form #fadd="ngForm">
+
+  <p>
+    <label for="">Nome </label>
+    <input type="text" id="name" name="nome" [(ngModel)]="usuario.nome">
+  </p>
+
+  <p>
+    <label for="">Matricula </label>
+    <input type="text" id="matricula" name="matricula" [(ngModel)]="usuario.matricula">
+  </p>
+
+  <p>
+    <label for="">Curso </label>
+    <input type="text" name="curso" id="curso" [(ngModel)]="usuario.curso">
+  </p>
+
+  <input type="submit" value="Cadastra" (click)="adicionar(fadd)">
+
+  <input type="submit" value="VerTodos">
+
+</form>
