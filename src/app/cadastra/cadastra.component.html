@@ -1,0 +1,22 @@
+<h1>Semandec Cadastro</h1>
+<form #fadd="ngForm">
+
+
+  <p>
+    <label for="">ID</label>
+    <input type="number" id="id" nome="id" [(ngModel)]="usuario.id">
+  </p>
+
+  <p>
+    <label for="">Nome </label>
+    <input type="text" id="name" name="nome" [(ngModel)]="usuario.nome">
+  </p>
+
+  <p>
+    <label for="">Matricula</label>
+    <input type="text" id="matricula" name="matricula" [(ngModel)]="usuario.matricula">
+  </p>
+
+  <input type="submit" value="Cadastra" (click)="adicionar()">
+
+</form>

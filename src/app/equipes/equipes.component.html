@@ -1,0 +1,266 @@
+
+<section>
+  <article class="A">
+    <details>
+      <summary>CURSO A</summary>
+
+      <ul>
+        <li>Modalidade 1</li>
+        <details>
+          <summary>Detalhes</summary>
+        <table mat-table (dataSource)="dataSource" class="mat-elevation-z8">
+
+          <ng-container matColumnDef="numero">
+            <th>Numero</th>
+            <td *matCellDef="let usuario"> {{usuario.numero}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="nome">
+            <th> Nome </th>
+            <td *[(ngModel)]="let usuario"> {{usuario.nome}} </td>
+          </ng-container>
+
+          <ng-container (ngModel)="turma">
+            <th> Turma </th>
+            <td *matCellDef="let usuario"> {{usuario.turma}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="turno">
+            <th> Turno </th>
+            <td *matCellDef="let usuario"> {{usuario.turno}} </td>
+          </ng-container>
+
+        </table>
+        
+      </details>
+      <li>Modalidade 2</li>
+        <details>
+          <summary>Detalhes</summary>
+        <table mat-table (dataSource)="dataSource" class="mat-elevation-z8">
+
+          <ng-container matColumnDef="numero">
+            <th>Numero</th>
+            <td *matCellDef="let usuario"> {{usuario.numero}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="nome">
+            <th> Nome </th>
+            <td *[(ngModel)]="let usuario"> {{usuario.nome}} </td>
+          </ng-container>
+
+          <ng-container (ngModel)="turma">
+            <th> Turma </th>
+            <td *matCellDef="let usuario"> {{usuario.turma}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="turno">
+            <th> Turno </th>
+            <td *matCellDef="let usuario"> {{usuario.turno}} </td>
+          </ng-container>
+
+        </table>
+        
+      </details>
+      </ul>
+    </details>
+  </article>
+
+  <section>
+    <article class="B">
+      <details>
+        <summary>CURSO B</summary>
+  
+        <ul>
+          <li>Modalidade 1</li>
+          <details>
+            <summary>Detalhes</summary>
+          <table mat-table (dataSource)="dataSource" class="mat-elevation-z8">
+  
+            <ng-container matColumnDef="numero">
+              <th>Numero</th>
+              <td *matCellDef="let usuario"> {{usuario.numero}} </td>
+            </ng-container>
+  
+            <ng-container matColumnDef="nome">
+              <th> Nome </th>
+              <td *[(ngModel)]="let usuario"> {{usuario.nome}} </td>
+            </ng-container>
+  
+            <ng-container (ngModel)="turma">
+              <th> Turma </th>
+              <td *matCellDef="let usuario"> {{usuario.turma}} </td>
+            </ng-container>
+  
+            <ng-container matColumnDef="turno">
+              <th> Turno </th>
+              <td *matCellDef="let usuario"> {{usuario.turno}} </td>
+            </ng-container>
+  
+          </table>
+          
+        </details>
+        <li>Modalidade 2</li>
+          <details>
+            <summary>Detalhes</summary>
+          <table mat-table (dataSource)="dataSource" class="mat-elevation-z8">
+  
+            <ng-container matColumnDef="numero">
+              <th>Numero</th>
+              <td *matCellDef="let usuario"> {{usuario.numero}} </td>
+            </ng-container>
+  
+            <ng-container matColumnDef="nome">
+              <th> Nome </th>
+              <td *[(ngModel)]="let usuario"> {{usuario.nome}} </td>
+            </ng-container>
+  
+            <ng-container (ngModel)="turma">
+              <th> Turma </th>
+              <td *matCellDef="let usuario"> {{usuario.turma}} </td>
+            </ng-container>
+  
+            <ng-container matColumnDef="turno">
+              <th> Turno </th>
+              <td *matCellDef="let usuario"> {{usuario.turno}} </td>
+            </ng-container>
+  
+          </table>
+          
+        </details>
+        </ul>
+      </details>
+    </article>
+    <section>
+      <article class="C">
+        <details>
+          <summary>CURSO C</summary>
+    
+          <ul>
+            <li>Modalidade 1</li>
+            <details>
+              <summary>Detalhes</summary>
+            <table mat-table (dataSource)="dataSource" class="mat-elevation-z8">
+    
+              <ng-container matColumnDef="numero">
+                <th>Numero</th>
+                <td *matCellDef="let usuario"> {{usuario.numero}} </td>
+              </ng-container>
+    
+              <ng-container matColumnDef="nome">
+                <th> Nome </th>
+                <td *[(ngModel)]="let usuario"> {{usuario.nome}} </td>
+              </ng-container>
+    
+              <ng-container (ngModel)="turma">
+                <th> Turma </th>
+                <td *matCellDef="let usuario"> {{usuario.turma}} </td>
+              </ng-container>
+    
+              <ng-container matColumnDef="turno">
+                <th> Turno </th>
+                <td *matCellDef="let usuario"> {{usuario.turno}} </td>
+              </ng-container>
+    
+            </table>
+            
+          </details>
+          <li>Modalidade 2</li>
+            <details>
+              <summary>Detalhes</summary>
+            <table mat-table (dataSource)="dataSource" class="mat-elevation-z8">
+    
+              <ng-container matColumnDef="numero">
+                <th>Numero</th>
+                <td *matCellDef="let usuario"> {{usuario.numero}} </td>
+              </ng-container>
+    
+              <ng-container matColumnDef="nome">
+                <th> Nome </th>
+                <td *[(ngModel)]="let usuario"> {{usuario.nome}} </td>
+              </ng-container>
+    
+              <ng-container (ngModel)="turma">
+                <th> Turma </th>
+                <td *matCellDef="let usuario"> {{usuario.turma}} </td>
+              </ng-container>
+    
+              <ng-container matColumnDef="turno">
+                <th> Turno </th>
+                <td *matCellDef="let usuario"> {{usuario.turno}} </td>
+              </ng-container>
+    
+            </table>
+            
+          </details>
+          </ul>
+        </details>
+      </article>
+
+      <section>
+        <article class="D">
+          <details>
+            <summary>CURSO D</summary>
+      
+            <ul>
+              <li>Modalidade 1</li>
+              <details>
+                <summary>Detalhes</summary>
+              <table mat-table (dataSource)="dataSource" class="mat-elevation-z8">
+      
+                <ng-container matColumnDef="numero">
+                  <th>Numero</th>
+                  <td *matCellDef="let usuario"> {{usuario.numero}} </td>
+                </ng-container>
+      
+                <ng-container matColumnDef="nome">
+                  <th> Nome </th>
+                  <td *[(ngModel)]="let usuario"> {{usuario.nome}} </td>
+                </ng-container>
+      
+                <ng-container (ngModel)="turma">
+                  <th> Turma </th>
+                  <td *matCellDef="let usuario"> {{usuario.turma}} </td>
+                </ng-container>
+      
+                <ng-container matColumnDef="turno">
+                  <th> Turno </th>
+                  <td *matCellDef="let usuario"> {{usuario.turno}} </td>
+                </ng-container>
+      
+              </table>
+              
+            </details>
+            <li>Modalidade 2</li>
+              <details>
+                <summary>Detalhes</summary>
+              <table mat-table (dataSource)="dataSource" class="mat-elevation-z8">
+      
+                <ng-container matColumnDef="numero">
+                  <th>Numero</th>
+                  <td *matCellDef="let usuario"> {{usuario.numero}} </td>
+                </ng-container>
+      
+                <ng-container matColumnDef="nome">
+                  <th> Nome </th>
+                  <td *[(ngModel)]="let usuario"> {{usuario.nome}} </td>
+                </ng-container>
+      
+                <ng-container (ngModel)="turma">
+                  <th> Turma </th>
+                  <td *matCellDef="let usuario"> {{usuario.turma}} </td>
+                </ng-container>
+      
+                <ng-container matColumnDef="turno">
+                  <th> Turno </th>
+                  <td *matCellDef="let usuario"> {{usuario.turno}} </td>
+                </ng-container>
+      
+              </table>
+              
+            </details>
+            </ul>
+          </details>
+        </article>
+
+
+</section>
